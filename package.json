@@ -1,0 +1,35 @@
+{
+    "name": "starter-nuxt-bulma",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "Nasrullah <naz.cules@gmail.com>",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "precommit": "npm run lint"
+    },
+    "dependencies": {
+        "bulma": "^0.7.5",
+        "nuxt": "^2.8.1",
+        "nuxt-facebook-pixel-module": "^1.3.0",
+        "nuxt-fontawesome": "^0.4.0"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.26",
+        "@fortawesome/free-brands-svg-icons": "^5.12.0",
+        "@fortawesome/free-solid-svg-icons": "^5.12.0",
+        "@fortawesome/free-regular-svg-icons": "^5.12.0",
+        "@fortawesome/vue-fontawesome": "^0.1.9",
+        "babel-eslint": "^10.0.2",
+        "eslint": "^6.0.1",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-loader": "^2.2.1",
+        "eslint-plugin-vue": "^5.2.3",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^7.1.0"
+    }
+}
