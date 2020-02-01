@@ -96,7 +96,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-10 is-offset-1">
-            <h1 class="title">PT. MMBC TOUR &amp; TRAVEL!</h1>
+            <h1 class="title is-3">PT. MMBC TOUR &amp; TRAVEL!</h1>
             <hr />
             <p
               class="subtitle is-size-4"
@@ -301,9 +301,9 @@
         <div class="columns">
           <div class="column is-10 is-offset-1">
             <div class="has-text-centered">
-              <h1 class="title has-text-white">BAGAIMANA CARA DAFTARNYA?</h1>
+              <h1 class="title is-4 has-text-white">BAGAIMANA CARA DAFTARNYA?</h1>
               <hr />
-              <ul class="is-size-4">
+              <ul class="is-size-5">
                 <li>
                   <font-awesome-icon :icon="['far', 'check-square']" />Untuk bergabung bersama kami syaratnya mudah banget cukup mempunyai Smartphone &amp; Email yang aktif, anda bisa jualan atau pemakaian pribadi.
                 </li>
@@ -313,8 +313,8 @@
               </ul>
             </div>
             <div class="is-warning has-text-centered">
-              <h2 class="title">KLIK TOMBOL DI BAWAH INI UNTUK ANTRI KARENA PESERTANYA TERBATAS</h2>
-              <button @click="whatsapp" class="button is-success is-focused is-large">
+              <h2 class="title is-4">KLIK TOMBOL DI BAWAH INI UNTUK ANTRI KARENA PESERTANYA TERBATAS</h2>
+              <button @click="whatsapp" class="button is-success is-focused is-medium">
                 <font-awesome-icon :icon="['fab', 'whatsapp']" />
                 <span class>ANTRI VIA WHATSAPP</span>
               </button>
@@ -355,16 +355,12 @@ export default {
 <style lang="css">
 ul,
 ol,
-p {
+p,
+button {
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: "Oswald", sans-serif;
 }
 ul {
