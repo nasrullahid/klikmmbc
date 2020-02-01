@@ -12,7 +12,7 @@
                 <h2 class="subtitle">
                   Bisnis travel agen sejak tahun 2007, 13 tahun pengalaman lebih 600.000 agen aktif tersebar diseluruh indonesia
                   <br />
-                  <strong>SEKARANG GILIRAN ANDA !!!</strong>
+                  <strong>SEKARANG GILIRAN ANDA!!!</strong>
                 </h2>
               </div>
             </div>
@@ -96,7 +96,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-10 is-offset-1">
-            <h1 class="title">PT. MMBC TOUR &amp; TRAVEL !</h1>
+            <h1 class="title">PT. MMBC TOUR &amp; TRAVEL!</h1>
             <hr />
             <p
               class="subtitle is-size-4"
@@ -356,13 +356,25 @@ export default {
 ul,
 ol,
 p {
-  font-weight: 500;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
 ul {
   margin-bottom: 2em;
 }
 li {
   margin-bottom: 1em;
+}
+.subtitle {
+  font-weight: 700;
 }
 svg.svg-inline--fa.fa-w-14 {
   width: 1.5em !important;
