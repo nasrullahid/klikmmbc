@@ -46,7 +46,7 @@ module.exports = {
         ],
         ['nuxt-facebook-pixel-module', {
             track: 'PageView',
-            pixelId: '2453788511517781',
+            pixelId: '566876257188909',
             disabled: false
         }],
     ],

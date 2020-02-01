@@ -56,7 +56,7 @@ export default {
       let message = encodeURIComponent(
         "Halo admin... Saya mau daftar Bimbingan Agen Travel *PT. MMBC Tour & Travel*"
       );
-      let link = "https://wa.me/6281356042815?text=" + message;
+      let link = "https://wa.me/6282250925542?text=" + message;
       window.open(link);
     }
   }
