@@ -3,8 +3,8 @@
     <land-page />
     <section class="section hero is-info">
       <div class>
-        <div class="columns">
-          <div class="column is-10 is-offset-1">
+        <div class="columns is-desktop">
+          <div class="column is-8 is-offset-2">
             <div class="has-text-centered">
               <h1 class="title is-4 has-text-white">BAGAIMANA CARA DAFTARNYA?</h1>
               <hr />
@@ -56,7 +56,7 @@ export default {
       let message = encodeURIComponent(
         "Halo admin... Saya mau daftar Bimbingan Agen Travel *PT. MMBC Tour & Travel*"
       );
-      let link = "https://wa.me/6281356042815?text=" + message;
+      let link = "https://wa.me/6282373888347?text=" + message;
       window.open(link);
     }
   }
