@@ -24,13 +24,14 @@
       <div class="container-fluid has-text-centered">
         <div class="columns">
           <div class="column is-10 is-offset-1">
-            <figure class="image">
+            <figure class="image is-16by9">
               <iframe
                 class="has-ratio"
                 width="640"
                 height="360"
-                src="https://www.youtube.com/embed/HxbW3LhQ8Jo?showinfo=0"
+                src="https://www.youtube.com/embed/HxbW3LhQ8Jo"
                 frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </figure>
