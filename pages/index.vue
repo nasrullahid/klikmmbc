@@ -313,8 +313,10 @@
               </ul>
             </div>
             <div class="is-warning has-text-centered">
-              <h2 class="title is-4">KLIK TOMBOL DI BAWAH INI UNTUK ANTRI KARENA PESERTANYA TERBATAS</h2>
-              <button @click="whatsapp" class="button is-success is-focused is-medium">
+              <h2
+                class="subtitle is-5"
+              >KLIK TOMBOL DI BAWAH INI UNTUK ANTRI KARENA PESERTANYA TERBATAS</h2>
+              <button @click="whatsapp" class="button is-success is-focused is-large">
                 <font-awesome-icon :icon="['fab', 'whatsapp']" />
                 <span class>ANTRI VIA WHATSAPP</span>
               </button>
@@ -360,7 +362,12 @@ button {
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Oswald", sans-serif;
 }
 ul {
