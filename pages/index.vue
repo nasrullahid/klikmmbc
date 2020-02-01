@@ -6,7 +6,7 @@
           <div class="columns is-desktop">
             <div class="column is-10 is-offset-1">
               <h1
-                class="title"
+                class="title is-4"
               >MAU BISNIS ONLINE TAPI BINGUNG CARI PRODUK YANG MARKETNYA BESAR &amp; PROFITNYA BESAR?</h1>
               <div class="notification is-dark">
                 <h2 class="subtitle">
@@ -353,6 +353,11 @@ export default {
 </script>
 
 <style lang="css">
+ul,
+ol,
+p {
+  font-weight: 500;
+}
 ul {
   margin-bottom: 2em;
 }
