@@ -1,5 +1,5 @@
 # starter-nuxt-bulma
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dfefa015-65a6-41fd-bdda-ee7586224ea7/deploy-status)](https://app.netlify.com/sites/klikmmbc/deploys)
 > Nuxt.js project
 
 ## Build Setup
